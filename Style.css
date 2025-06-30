@@ -1,0 +1,106 @@
+/* Important for project */
+body{
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.project{
+    width: 380px;
+    position: absolute;
+    left: calc(50% - (380px/2));
+    top: calc(50% - (624.23px/2));
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
+/* Header image */
+.header img{
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 100%;
+}
+
+/* Text (name, location, job) */
+.fir_text .name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.fir_text .location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.sec_text .job{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+button{
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    width: 320px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: calc(50% - (280.06px/2));
+    bottom: 3%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 430px){
+    .project{
+        width: 280px;
+        left: calc(50% - (280px/2));
+        top: calc(50% - (499.04px/2));
+    }
+
+    .header img{
+        width: 88.42px;
+    }
+
+    .sec_text .job{
+        font-size: 12px;
+    }
+
+    button{
+        width: 235.79px;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .insta{
+        margin-bottom: 10px;
+    }
+}
